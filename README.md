@@ -3,17 +3,21 @@ Ce document constitue mon rendu pour la partie conception d'un Modèle-Vue-Contr
 
 Pour visualiser la page web correctement en tant qu'application mobile, veuillez suivre ces étapes :
 
-- Sur la page web, cliquez sur "Inspecter".
-- Choisissez une disposition d'écran de type téléphone sur le toggle.
-- Assurez-vous que le zoom est à 100%.
+1. Sur la page web, cliquez sur "Inspecter".
+2. Choisissez une disposition d'écran de type téléphone sur le toggle.
+3. Assurez-vous que le zoom est à 100%.
+
+![Exemple de publication](./img/exemple.png)
+*Exemple de publication sur la vue mobile de la page Communauté*
+
 
 ## Optimisation et Bonnes Pratiques
 Cette application a été conçue en mettant l'accent sur plusieurs aspects pour optimiser les performances, l'accessibilité, les bonnes pratiques et le SEO.
 Le projet a été soumis aux tests Lighthouse pour évaluer ses performances. Les résultats se sont avérés satisfaisants, mettant en évidence une attention particulière portée à ces critères :
 
-- Accessibilité à 100% : Un objectif prioritaire, l'interface a été conçue en tenant compte des recommandations pour garantir une accessibilité maximale.
-- Optimisation native : Le code, y compris le CSS, a été développé en natif pour maximiser les performances.
-- SEO : Bien que la balise de viewport soit commentée dans le HTML pour des raisons de comportement responsive, le design vise à maximiser les résultats en SEO.
+- `Accessibilité à 100%` : Un objectif prioritaire, l'interface a été conçue en tenant compte des recommandations pour garantir une accessibilité maximale.
+- `Optimisation native` : Le code, y compris le CSS, a été développé en natif pour maximiser les performances.
+- `SEO` : Bien que la balise de viewport soit commentée dans le HTML pour des raisons de comportement responsive, le design vise à maximiser les résultats en SEO.
 
 ![Résultats Tests Lighthouse sans balise viewport](./img/sans-viewport.png)
 *Résultats Tests Lighthouse sans balise viewport*
@@ -25,11 +29,11 @@ Le projet a été soumis aux tests Lighthouse pour évaluer ses performances. Le
 ## Conception et Adaptations
 Ce projet s'inspire d'une maquette réalisée dans le cadre du cours d'IHM. Pour répondre à divers critères, des ajustements ont été apportés :
 
-- Contraste amélioré : Les couleurs ont été ajustées pour augmenter le contraste, facilitant ainsi la lisibilité pour les personnes atteintes de daltonisme.
+- `Contraste amélioré` : Les couleurs ont été ajustées pour augmenter le contraste, facilitant ainsi la lisibilité pour les personnes atteintes de daltonisme.
 
-- Fonctionnalités : L'application permet principalement d'ajouter et de supprimer des publications sur la page "Communauté". Plutôt que de multiplier les fonctionnalités complexes, l'accent a été mis sur la qualité et l'implémentation des bonnes pratiques pour ces actions simples mais essentielles.
+- `Fonctionnalités` : L'application permet principalement d'ajouter et de supprimer des publications sur la page "Communauté". Plutôt que de multiplier les fonctionnalités complexes, l'accent a été mis sur la qualité et l'implémentation des bonnes pratiques pour ces actions simples mais essentielles.
 
-- Modifications de la Maquette Initiale : Initialement conçue pour représenter deux pages distinctes dans Figma, l'application a été ajustée pour ne coder qu'une seule page, offrant ainsi la possibilité de publier et de voir ses propres publications sur la même interface.
+- `Modifications de la Maquette Initiale` : Initialement conçue pour représenter deux pages distinctes dans Figma, l'application a été ajustée pour ne coder qu'une seule page, offrant ainsi la possibilité de publier et de voir ses propres publications sur la même interface.
 
 # Description des Fichiers
 - `index.html` : Le fichier index.html représente la page principale de l'application. Il contient la structure HTML de l'interface utilisateur, incluant les champs de saisie pour le titre et la description des publications, ainsi que la liste des publications.
