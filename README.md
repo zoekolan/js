@@ -7,7 +7,7 @@ Pour visualiser la page web correctement en tant qu'application mobile, veuillez
 2. Choisissez une disposition d'écran de type téléphone sur le toggle.
 3. Assurez-vous que le zoom est à 100%.
 
-<img src="./img/exemple.PNG" alt="Exemple de publication" width="300" height="200">
+<img src="./img/exemple.PNG" alt="Exemple de publication" width="300" height="500">
 *Exemple de publication sur la vue mobile de la page Communauté*
 
 
