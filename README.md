@@ -1,7 +1,7 @@
 # Projet IHM - MVC 
 Ce document constitue mon rendu pour la partie conception d'un Modèle-Vue-Contrôleur (MVC) en Javascript, basé sur notre maquette Figma pour une application de mise en relation de coureurs. Dans le cadre de ce projet, j'ai choisi de présenter spécifiquement le volet "Communauté", en mettant l'accent exclusivement sur les publications de l'utilisateur associé au compte.
 
-Pour visualiser la page web correctement en tant qu'application mobile, veuillez suivre ces étapes :
+## Pour visualiser la page web correctement en tant qu'application mobile, veuillez suivre ces étapes :
 
 1. Sur la page web, cliquez sur "Inspecter".
 2. Choisissez une disposition d'écran de type téléphone sur le toggle.
